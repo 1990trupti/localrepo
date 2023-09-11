@@ -3,6 +3,7 @@ from tkinter import ttk
 import requests
 
 def data_get():
+
     city = city_name.get()
     data = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=eaf376bef4a4bcdf65a19f418bf12ee6").json()
 # print(data)
