@@ -15,7 +15,6 @@ def data_get():
     p_label1.config(text=data["main"]["pressure"])
 
 
-
 win = Tk()  #creating window will call Tk class
 win.title("Weather App")   #title of window
 win.config(bg = "light blue")   #window background color
@@ -49,8 +48,6 @@ com.place(x=25,y=120,height=50,width=450)
 
 
 # creating button
-
-
 
 w_label = Label(win, text="Weather Climate",
                    font=("Times New Roman",20))
